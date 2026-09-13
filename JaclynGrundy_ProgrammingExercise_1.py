@@ -26,7 +26,7 @@ def get_tickets(remaining):
 def ticket_sales():
     # Program begins with 20 tickets and 0 buyers.
     remaining = 10
-    buyers = 0
+    customers = 0
 
     # Continue selling tickets until all have been sold.
     while remaining > 0:
@@ -35,12 +35,12 @@ def ticket_sales():
         # Updates remaining tickets and total buyers.
         if tickets > 0:
             remaining -= tickets
-            buyers += 1
+            customers += 1
             print('Tickets remaining:', remaining)
 
     # Displays the final results.
     print('No more tickets remaining.')
-    print('Total number of buyers:', buyers)
+    print('Total number of buyers:', customers)
 
 # Execute the ticket_sales function.
 ticket_sales()
