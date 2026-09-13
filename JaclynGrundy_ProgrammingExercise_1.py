@@ -2,7 +2,7 @@
 def get_tickets(remaining):
     # Ask the amount of tickets the user wants to purchase.
     try:
-        tickets = int(input('How many tickets would you like to purchase (max of 4)? '))
+        tickets = int(input('How many tickets do you need to buy (limit of 4)? '))
 
         # Check that the user requests between 1 and 4 tickets.
         if tickets < 1 or tickets > 4:
