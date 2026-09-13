@@ -25,7 +25,7 @@ def get_tickets(remaining):
 # Calculate the remaining tickets and total buyers.
 def ticket_sales():
     # Program begins with 20 tickets and 0 buyers.
-    remaining = 20
+    remaining = 10
     buyers = 0
 
     # Continue selling tickets until all have been sold.
